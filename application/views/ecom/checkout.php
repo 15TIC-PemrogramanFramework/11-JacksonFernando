@@ -94,7 +94,7 @@
             },
             error: function (jqXHR, textStatus, errorThrown)
             {
-                alert('silahkan login terlebih dahulu');
+       
             }
         });
     }

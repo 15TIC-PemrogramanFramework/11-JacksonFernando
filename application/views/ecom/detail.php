@@ -82,12 +82,12 @@
             {
            
             console.log(data);
-
+            alert('item berhasil ditambah ke cart');
          
             },
             error: function (jqXHR, textStatus, errorThrown)
             {
-                alert('Gagal menambah data');
+             
             }
         });
     }</script>

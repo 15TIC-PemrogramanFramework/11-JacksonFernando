@@ -118,7 +118,7 @@
             },
             error: function (jqXHR, textStatus, errorThrown)
             {
-                alert('Error deleting data');
+              
             }
         });
 
@@ -281,7 +281,7 @@
             },
             error: function (jqXHR, textStatus, errorThrown)
             {
-                 alert('Gagal Daftar silahkan cek format email dan password anda');
+                 alert('email atau password salah . Hanya menerima email hotmail , gmail , yahoo . Password Minimal 5 karakter');
             }
         });
     }
